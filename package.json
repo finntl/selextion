@@ -1,0 +1,24 @@
+{
+  "name": "selextion",
+  "version": "0.1.0",
+  "description": "The DIY text editor library that makes no assumptions for you",
+  "main": "dist/TextEditor.js",
+  "scripts": {
+    "prepare": "npx tsc",
+    "demo": "servor . ./example.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finntl/selextion.git"
+  },
+  "author": "Finn T-L",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finntl/selextion/issues"
+  },
+  "homepage": "https://github.com/finntl/selextion#readme",
+  "devDependencies": {
+    "servor": "^4.0.2",
+    "typescript": "^4.3.5"
+  }
+}
